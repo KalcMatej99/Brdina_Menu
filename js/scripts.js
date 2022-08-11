@@ -9,6 +9,8 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    $('#openMessage').modal('show')
+
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
