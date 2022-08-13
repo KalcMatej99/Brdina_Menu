@@ -87,6 +87,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overscroll-behavior: contain;
 }
 
 hr {
@@ -11506,8 +11507,4 @@ html {
 
 .copyright {
   background-color: #1a252f;
-}
-
-body {
-  overscroll-behavior: contain;
 }
