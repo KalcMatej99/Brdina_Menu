@@ -26,11 +26,8 @@ window.addEventListener('DOMContentLoaded', event => {
     };
 
     // Shrink the navbar 
-    navbarShrink();
+    //navbarShrink();
 
-
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
