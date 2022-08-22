@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1661187120548,
+  "timestamp": 1661193368298,
   "index": "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/favicon.ico",
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/index.html",
-        "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/main.eea867d0c9a969b2.js",
+        "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/main.8cb782153d81a90e.js",
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/manifest.webmanifest",
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/polyfills.5460f73ec7c95c26.js",
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/runtime.14d40a41da480da6.js",
-        "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/styles.1b962c3a50bbf6dc.css"
+        "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/styles.d72097561884c383.css"
       ],
       "patterns": []
     },
@@ -63,9 +63,7 @@
         "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
         "https:\\/\\/stackpath\\.bootstrapcdn\\.com\\/.*",
         "https:\\/\\/cdnjs\\.cloudflare\\.com\\/.*",
-        "https:\\/\\/use\\.fontawesome\\.com\\/.*",
-        "https:\\/\\/KalcMatej99\\.github\\.io\\/Brdina_Menu_Kraska_Ohcet\\/https: \\/\\/code\\.jquery\\.com\\/.*",
-        "https:\\/\\/cdn\\.jsdelivr\\.net\\/.*"
+        "https:\\/\\/use\\.fontawesome\\.com\\/.*"
       ]
     }
   ],
@@ -101,12 +99,12 @@
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/assets/vino_kozarec.png": "9506921f22f092518d1cae2987dd788bd4a63640",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/assets/vino_steklenica.jpeg": "9cb62a1c12aab22fcfc7c6117c337a9ea47875fa",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/favicon.ico": "6c04482c65d3755916ff95fc37e311dcdcabc2ea",
-    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/index.html": "93e8f27a3f91f0c1f9d19a87db2105ede9e5e2d7",
-    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/main.eea867d0c9a969b2.js": "234ed70bdd58905c9231c7d31bc5e8c3a7dfd264",
+    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/index.html": "b0398217ef5b7d0edab764a06773b1b269161286",
+    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/main.8cb782153d81a90e.js": "dcc3492eee935cf10c55a92e6f6e125c9190c5fd",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/manifest.webmanifest": "65ba7fffcb22d7c05bc9e52705ed4a83bbd383f0",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/polyfills.5460f73ec7c95c26.js": "0bd98a375e8988e8b62b5f55af845c841b6431f9",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/runtime.14d40a41da480da6.js": "f10199963c81b8c22f4a2fa453a99c0953dd12cf",
-    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/styles.1b962c3a50bbf6dc.css": "efd2ed3bc75277fc08e57409ce6ed1dd8f5dd74d"
+    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/styles.d72097561884c383.css": "8968dba6a22e5ec5b7ca4faf24375e24fd497adb"
   },
   "navigationUrls": [
     {
