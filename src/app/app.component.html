@@ -1,0 +1,95 @@
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <div class="container">
+    <div class="navbar-brand">
+      <img class="img-fluid rounded m-auto" [src]="'assets/logo_mini.webp'" alt="..." />
+      SK Brdina</div>
+    <button #toggler class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+      data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+      aria-expanded="false" aria-label="Toggle navigation">
+      {{language_texts[language]}}
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item mx-0 mx-lg-1 nav-link py-3 px-0 px-lg-3 rounded" (click)="change_language(0)">SLO
+          🇸🇮
+        </li>
+        <li class="nav-item mx-0 mx-lg-1 nav-link py-3 px-0 px-lg-3 rounded" (click)="change_language(1)">ITA
+            🇮🇹</li>
+        <li class="nav-item mx-0 mx-lg-1 nav-link py-3 px-0 px-lg-3 rounded" (click)="change_language(2)">ENG
+            🇺🇸</li>
+        <li class="nav-item mx-0 mx-lg-1 nav-link py-3 px-0 px-lg-3 rounded" (click)="change_language(3)">DE
+            🇩🇪
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<modal #modal [title]="title_start_message" [subtitle]="subtitles_start_message[language]"
+  [button_text]="button_start_message[language]"></modal>
+<modal_product #modal_product [product_name]="selected_product.names[language]" [product_price]="selected_product.price"
+  [product_path_to_image]="selected_product.path_to_image"
+  [product_description]="selected_product.descriptions[language]"></modal_product>
+
+<!-- Portfolio Section-->
+<section class="page-section portfolio" id="portfolio">
+  <div class="container">
+    <!-- Portfolio Section Heading-->
+    <br>
+    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Menu</h2>
+    <h5 class="text-center text-uppercase text-secondary mb-0">{{titles[language]}}</h5>
+    <br>
+    <!-- Portfolio Grid Items-->
+    <div class="row justify-content-center">
+
+      <div class="col-6 col-md-4 col-lg-3 mb-5" *ngFor="let product of products;">
+        <div class="portfolio-item mx-auto" (click)="openModalProduct(product.id)" id="{{product.id}}">
+          <img class="img-fluid" src="{{product.path_to_image}}" alt="..." />
+          <h4 class="text-center text-uppercase text-secondary mb-0"><span
+              id="ime_uporabnika">{{product.names[language]}} </span></h4>
+          <h5 class="text-center text-uppercase text-secondary mb-0"><span id="price_uporabnika">{{product.price}}
+            </span></h5>
+          <div class="text-center" *ngIf="product.descriptions[0] != ''">
+            <button type="button"
+              class="text-uppercase btn btn-info text-white m-auto">{{description_button[language]}}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer text-center">
+  <div class="container">
+    <div class="row">
+      <!-- Footer Location-->
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <h4 class="text-uppercase mb-4">{{location_title[language]}}</h4>
+        <a class="btn btn-outline-light btn-social mx-1" href="https://goo.gl/maps/t2pa5DdMh8P9pghs7"><i
+            class="fa-solid fa-map-location-dot"></i></a>
+        <p class="lead mb-0">
+          {{location[language]}}
+        </p>
+
+      </div>
+      <!-- Footer Social Icons-->
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <h4 class="text-uppercase mb-4">{{social_title[language]}}</h4>
+        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/skbrdina/?ref=page_internal"><i
+            class="fab fa-fw fa-facebook-f"></i></a>
+        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/asdskbrdina/"><i
+            class="fab fa-fw fa-instagram"></i></a>
+      </div>
+      <!-- Footer Social Icons-->
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <h4 class="text-uppercase mb-4">{{opensource_title[language]}}</h4>
+        <a class="btn btn-outline-light btn-social mx-1"
+          href="https://github.com/KalcMatej99/Brdina_Menu_Kraska_Ohcet"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Copyright Section-->
+<div class="copyright py-4 text-center text-white">
+  <div class="container"><small>Copyright &copy; SK Brdina 2022</small></div>
+</div>

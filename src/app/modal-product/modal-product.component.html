@@ -1,0 +1,23 @@
+<ng-template #modal_product>
+    <div class="modal-header border-0"><button (click)="close()" class="btn-close" type="button" data-bs-dismiss="modal"
+            aria-label="Close"></button></div>
+
+    <div class="modal-body text-center pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-6">
+                    <!-- Portfolio Modal - Title-->
+                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" [innerHtml]="product_name">
+                    </h2>
+                    <h4 class="portfolio-modal-title text-secondary text-uppercase mb-0" [innerHtml]="product_price">
+                    </h4>
+                    <br>
+                    <!-- Portfolio Modal - Image-->
+                    <img class="img-fluid rounded mb-5" src="{{product_path_to_image}}" alt="..." />
+                    <!-- Portfolio Modal - Text-->
+                    <p class="mb-4" [innerHtml]="product_description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>

@@ -1,0 +1,24 @@
+<ng-template #modal>
+	<div class="modal-header border-0"><button (click)="close()" class="btn-close" type="button" data-bs-dismiss="modal"
+			aria-label="Close"></button></div>
+
+	<div class="modal-body text-center pb-5">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<!-- Portfolio Modal - Title-->
+					<img class="img-fluid rounded m-auto" src="assets/logo.webp" alt="..." />
+					<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" [innerHtml]="title">
+					</h2>
+					<br>
+					<h4 class="text-secondary text-uppercase mb-0" [innerHtml]="subtitle"></h4>
+					<br>
+					<button (click)="close()" class="btn btn-primary" data-bs-dismiss="modal">
+						<i class="fa-solid fa-utensils"></i>
+						{{button_text}}
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</ng-template>
