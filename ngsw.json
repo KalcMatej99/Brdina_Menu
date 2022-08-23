@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1661240484245,
+  "timestamp": 1661240849280,
   "index": "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/favicon.ico",
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/index.html",
-        "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/main.5741d4682be5164f.js",
+        "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/main.c1c10e8ed76224d5.js",
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/manifest.webmanifest",
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/polyfills.5460f73ec7c95c26.js",
         "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/runtime.14d40a41da480da6.js",
@@ -99,8 +99,8 @@
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/assets/vino_kozarec.png": "9506921f22f092518d1cae2987dd788bd4a63640",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/assets/vino_steklenica.jpeg": "9cb62a1c12aab22fcfc7c6117c337a9ea47875fa",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/favicon.ico": "6c04482c65d3755916ff95fc37e311dcdcabc2ea",
-    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/index.html": "60acdfcaf033e6bcf8f844bfacb0e0ae3a8950ad",
-    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/main.5741d4682be5164f.js": "2789e3581916d5389dbbaf2d5756dc5f01f153ce",
+    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/index.html": "117c50f6773a65a27d608d649c4df9385b82a86d",
+    "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/main.c1c10e8ed76224d5.js": "bbf3de23f9176a7e161fd3a291495cd121ae543a",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/manifest.webmanifest": "65ba7fffcb22d7c05bc9e52705ed4a83bbd383f0",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/polyfills.5460f73ec7c95c26.js": "0bd98a375e8988e8b62b5f55af845c841b6431f9",
     "https://KalcMatej99.github.io/Brdina_Menu_Kraska_Ohcet/runtime.14d40a41da480da6.js": "f10199963c81b8c22f4a2fa453a99c0953dd12cf",
