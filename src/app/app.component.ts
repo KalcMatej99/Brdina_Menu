@@ -28,166 +28,146 @@ export class AppComponent {
 
   products: any[] = [{
     'id': 0,
-    'names': ['Breskve v vinu', "Pesche nel vino", "Peaches with Wine", "Pfirsiche mit Wein"],
-    'price': "3,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["Breskve v vinu s sladkorjem so tradicionalni kraški napitek.", "Le pesche al vino con zucchero sono una bevanda tradizionale del Carso.", "Peaches in wine with sugar are a traditional Karst drink.", "Pfirsiche in Wein mit Zucker sind ein traditionelles Karstgetränk."]
+    'names': ['Kuhani štruklji', "Struccoli cotti", "Cooked traditional sweet with walnuts", "Gekochter Strukkoli"],
+    'price': "6,00€",
+    "path_to_image": "assets/struccoli.webp",
+    "descriptions": ["Kuhani štruklji z orehi, skuto in rozinami je tradicionalna kraška sladica.", "Lo struccolo con noci, ricotta e uvetta è un dolce tipico del Carso.", "Struccolo with walnuts, ricotta and raisins is a typical dessert of the Karst.", "Struccolo mit Walnüssen, Ricotta und Rosinen ist ein typisches Dessert des Karstes."]
   }, {
     'id': 1,
     'names': ['Surov pršut (100g)', "Prosciutto Crudo (100g)", "Raw Ham (100g)", "Schinken (100g)"],
     'price': "6,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/prsut_srov.webp",
     "descriptions": ["", "", "", ""]
   }, {
     'id': 2,
-    'names': ['Pečen pršut (100g)', "Prosciutto arrosto (100g)", "Roasted Ham (100g)", "Gerösteter Schinken (100g)"],
+    'names': ['Pečen pršut (100g)', "Prosciutto cotto (100g)", "Baked Ham (100g)", "Gebackener Schinken (100g)"],
     'price': "6,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/kuhan_prsut.webp",
     "descriptions": ["", "", "", ""]
   }, {
     'id': 3,
     'names': ['Sir (100g)', "Formaggio (100g)", "Cheese (100g)", "Käse (100g)"],
     'price': "4,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/sir.webp",
     "descriptions": ["", "", "", ""]
   }, {
     'id': 4,
-    'names': ['Sendvič s klobaso', "Panino con salsiccia", "Sandwich with Sausage", "Sandwich mit Wurst"],
+    'names': ['Sendvič', "Panino", "Sandwich", "Sandwich"],
     'price': "3,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["", "", "", ""]
+    "path_to_image": "assets/sendvic.webp",
+    "descriptions": ["Sendvič je s pršutom surovim ali s pršutom kuhanim ali s sirom ali s klobaso.", "Il panino viene fornito con prosciutto crudo o prosciutto cotto o formaggio o salsiccia.", "The sandwich comes with raw ham or cooked ham or cheese or sausage.", "Das Sandwich wird mit rohem Schinken oder gekochtem Schinken oder Käse oder Wurst serviert."]
   }, {
     'id': 5,
-    'names': ['Sendvič s sirom', "Panino con formaggio", "Sandwich with Cheese", "Sandwich mit Käse"],
-    'price': "3,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["", "", "", ""]
+    'names': ['Jota', "Jota", "Jota", "Traditionelle Sauerkrautsuppe"],
+    'price': "4,00€",
+    "path_to_image": "assets/jota.webp",
+    "descriptions": ["Jota je tradicionalna mineštra s kislim zeljem, fižolom in slanino.", "Jota è una minestra tradizionale con crauti, fagioli e pancetta.", "Jota is a traditional minestra with sauerkraut, beans and bacon.", "Jota ist eine traditionelle Minestra mit Sauerkraut, Bohnen und Speck."]
   }, {
     'id': 6,
-    'names': ['Sendvič s pečenim pršutom', "Panino con prosciutto arrosto", "Sandwich with Roasted Ham", "Sandwich mit Gerösteter Schinken"],
-    'price': "3,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["", "", "", ""]
+    'names': ['Jota s klobaso', "Jota con salsiccia", "Jota with Sausage", "Traditionelle Sauerkrautsuppe mit Wurst"],
+    'price': "5,50€",
+    "path_to_image": "assets/jota_s_klobaso.webp",
+    "descriptions": ["Jota je tradicionalna mineštra s kislim zeljem, fižolom, slanino. Dodana je še klobasa.", "Jota è una minestra tradizionale con crauti, fagioli e pancetta. Si aggiunge la salsiccia.", "Jota is a traditional minestra with sauerkraut, beans, and bacon. Sausage is added.", "Jota ist eine traditionelle Minestra mit Sauerkraut, Bohnen und Speck. Wurst kommt hinzu."]
   }, {
     'id': 7,
-    'names': ['Sendvič s surovim pršutom', "Panino con prosciutto crudo", "Sandwich with Raw Ham", "Sandwich mit Schinken"],
-    'price': "3,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    'names': ['Klobasa z zeljem', "Salsiccia con crauti", "Sausage with cabbage", "Wurst mit Sauerkraut"],
+    'price': "5,50€",
+    "path_to_image": "assets/klobasa_z_zeljem.webp",
     "descriptions": ["", "", "", ""]
   }, {
     'id': 8,
-    'names': ['Jota', "Jota", "Jota", "Traditionelle Sauerkrautsuppe"],
-    'price': "4,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["Jota je tradicionalna mineštra s kislim zeljem, fižolom in slanino.", "Jota è una minestra tradizionale con crauti, fagioli e pancetta.", "Jota is a traditional minestra with sauerkraut, beans and bacon.", "Jota ist eine traditionelle Minestra mit Sauerkraut, Bohnen und Speck."]
+    'names': ['Oranžada (0,5L)', "Aranciata (0,5L)", "Orange drink (0,5L)", "Orangen limonade (0,5L)"],
+    'price': "3,00€",
+    "path_to_image": "assets/aranciata.webp",
+    "descriptions": ["", "", "", ""]
   }, {
     'id': 9,
-    'names': ['Jota s klobaso', "Jota con salsiccia", "Jota with Sausage", "Traditionelle Sauerkrautsuppe mit Wurst"],
-    'price': "5,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["Jota je tradicionalna mineštra s kislim zeljem, fižolom, slanino. Dodana je še klobasa.", "Jota è una minestra tradizionale con crauti, fagioli e pancetta. Si aggiunge la salsiccia.", "Jota is a traditional minestra with sauerkraut, beans, and bacon. Sausage is added.", "Jota ist eine traditionelle Minestra mit Sauerkraut, Bohnen und Speck. Wurst kommt hinzu."]
+    'names': ['Voda (0,5L)', "Acqua (0,5L)", "Water (0,5L)", "Wasser (0,5L)"],
+    'price': "1,00€",
+    "path_to_image": "assets/voda.webp",
+    "descriptions": ["", "", "", ""]
   }, {
     'id': 10,
-    'names': ['Klobasa z zeljem', "Salsiccia con crauti", "Sausage with cabbage", "Wurst mit Sauerkraut"],
-    'price': "5,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    'names': ['Kava', "Caffé", "Coffe", "Kaffee"],
+    'price': "1,20€",
+    "path_to_image": "assets/kava.webp",
     "descriptions": ["", "", "", ""]
   }, {
     'id': 11,
-    'names': ['Golaž', "Golas", "Gulasch", "Gulasch"],
+    'names': ['Golaž', "Gulasch", "Gulasch", "Gulasch"],
     'price': "5,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/golaz.webp",
     "descriptions": ["Golaž je tradicionalen kraški mesni krožnik z paradižnikovo omako.", "Il gulasch è un piatto di carne tradizionale del Carso con salsa di pomodoro.", "Goulash is a traditional Karst meat dish with tomato sauce.", "Gulasch ist ein traditionelles Fleischgericht aus dem Karst mit Tomatensoße."]
   }, {
     'id': 12,
-    'names': ['Kruhovi cmoki s golažem', "Gnocchi di pane con golas", "Bread dumplings with Gulasch", "Knödel aus Brot mit Gulasch"],
+    'names': ['Kruhovi njoki s golažem', "Gnocchi di pane con gulasch", "Bread dumplings with Gulasch", "Knödel aus Brot mit Gulasch"],
     'price': "6,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/kruhovi_cmoki_s_gulazem.webp",
     "descriptions": ["Tradicionalni kraški njoki iz kruha s golažem.", "Gnocchi tradizionali del Carso di pane con gulasch.", "Traditional Karst gnocchi made from bread with goulash.", "Traditionelle Karst-Gnocchi aus Brot mit Gulasch."]
   }, {
     'id': 13,
-    'names': ['Češpljevi cmoki', "Gnocchi de susini", "Sweet plums dumplings", "Zwetschgenknödel"],
+    'names': ['Češpljevi njoki', "Gnocchi di susine", "Sweet plums dumplings", "Zwetschgenknödel"],
     'price': "3,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["Češpljevi cmoki so tradicionalna kraška sladica s sladica iz krompirjevega testa s slivo.", "Gli gnocchi 'de susini' sono un dolce tipico del Carso a base di pasta di patate e prugne.", "Gnocchi 'de susini' are a typical Karst dessert made with potato and plum paste.", "Gnocchi 'de susini' sind ein typisches Karst-Dessert aus Kartoffel- und Pflaumenpaste."]
+    "path_to_image": "assets/ces_njoki.webp",
+    "descriptions": ["Češpljevi cmoki so tradicionalna kraška sladica s sladica iz krompirjevega testa s slivo.", "Gli gnocchi di susine sono un dolce tipico del Carso a base di pasta di patate e prugne.", "Gnocchi 'de susini' are a typical Karst dessert made with potato and plum paste.", "Gnocchi 'de susini' sind ein typisches Karst-Dessert aus Kartoffel- und Pflaumenpaste."]
   }, {
     'id': 14,
-    'names': ['Kuhani štruklji z orehi', "Struccoli cotti alle noci", "Cooked traditional sweet with walnuts", "Gekochter Strukkoli mit Walnuss"],
-    'price': "4,00€",
+    'names': ['Breskve v vinu', "Pesche al vino", "Peaches in Wine", "Pfirsiche Im Wein"],
+    'price': "3,00€",
     "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["Kuhani štruklji z orehi, skuto in rozinami je tradicionalna kraška sladica.", "Lo struccolo con noci, ricotta e uvetta è un dolce tipico del Carso.", "Struccolo with walnuts, ricotta and raisins is a typical dessert of the Karst.", "Struccolo mit Walnüssen, Ricotta und Rosinen ist ein typisches Dessert des Karstes."]
+    "descriptions": ["Breskve v vinu s sladkorjem so tradicionalni kraški napitek.", "Le pesche al vino con zucchero sono una bevanda tradizionale del Carso.", "Peaches in wine with sugar are a traditional Karst drink.", "Pfirsiche in Wein mit Zucker sind ein traditionelles Karstgetränk."]
   }, {
     'id': 15,
-    'names': ['Kifelčki (slatki ali slani)', "Chifeletti (dolci o salati)", "Kipfel (sweet or savory)", "Kipfel (süß oder herzhaft)"],
+    'names': ['Kifeljčki (slatki / slani)', "Chifeletti (dolci / salati)", "Kipfel (sweet / savory)", "Kipfel (süß / herzhaft)"],
     'price': "3,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/kifelcki.webp",
     "descriptions": ["Slani ali sladki kifelčki iz krompirja so tradicionalna kraška priloga.", "I chifeletti dolci o salati di patate sono un contorno tradizionale del Carso.", "Sweet or savory potato chifeletti are a traditional side dish from the Karst.", "Süße oder herzhafte Kartoffel-Chifeletti sind eine traditionelle Beilage aus dem Karst."]
   }, {
     'id': 16,
     'names': ['Kuhana jajca', "Uova sode", "Bolled eggs", "Gekochte Eier"],
     'price': "0,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/kuhano_jajce.webp",
     "descriptions": ["", "", "", ""]
   }, {
     'id': 17,
     'names': ['Rezina kruha', "Fetta di pane", "Slice of bread", "Brot (Scheibe)"],
     'price': "0,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/kruh.webp",
     "descriptions": ["", "", "", ""]
   }, {
     'id': 18,
-    'names': ['Vino Steklenica (0,75L)', "Vino Bottiglia (0,75L)", "Wine Bottle (0,75L)", "Flasche Wien (0,75L)"],
+    'names': ['Steklenica vina (0,75L)', "Bottiglia di vino(0,75L)", "Bottle of wine (0,75L)", "Flasche Wien (0,75L)"],
     'price': "6,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/vino_steklenica.webp",
     "descriptions": ["Steklenica črnega ali belega kraškega vina.", "Una bottiglia di vino carsico nero o bianco.", "A bottle of black or white Karst wine.", "Eine Flasche schwarzen oder weißen Karstwein."]
   }, {
     'id': 19,
-    'names': ['Vino kozarec (0,08L)', "Vino bicchiere (0,08L)", "Glass of Wine (0,08L)", "Weinglas (0,08L)"],
+    'names': ['Kozarec vina (0,08L)', "Bicchiere di vino(0,08L)", "Glass of Wine (0,08L)", "Weinglas (0,08L)"],
     'price': "1,50€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/vino_kozarec.webp",
     "descriptions": ["Kozarec črnega ali belega kraškega vina.", "Un bicchiere di vino carsico nero o bianco.", "A glass of black or white Karst wine.", "Ein Glas schwarzen oder weißen Karstwein."]
   }, {
     'id': 20,
     'names': ['Teranov Liker', "Liquore vino terrano", "Teran Wine Liquor", "Teran Weinlikör"],
     'price': "3,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/teranov_liker.webp",
     "descriptions": ["Liker iz kraškega terana.", "Liquore del Terrano carsico.", "Liqueur from the Karst Teran.", "Likör aus dem Karst Teran."]
   }, {
     'id': 21,
     'names': ['Špric', "Spritz", "Spritz", "Spritzer"],
     'price': "2,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/spritz.webp",
     "descriptions": ["", "", "", ""]
   }, {
     'id': 22,
     'names': ['Coca cola (0,5L)', "Coca cola (0,5L)", "Coca cola (0,5L)", "Coca cola (0,5L)"],
     'price': "3,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["", "", "", ""]
-  }, {
-    'id': 23,
-    'names': ['Oranžada (0,5L)', "Aranciata (0,5L)", "Orange drink (0,5L)", "Orangen limonade (0,5L)"],
-    'price': "3,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["", "", "", ""]
-  }, {
-    'id': 24,
-    'names': ['Voda (0,5L)', "Acqua (0,5L)", "Water (0,5L)", "Wasser (0,5L)"],
-    'price': "1,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["", "", "", ""]
-  }, {
-    'id': 25,
-    'names': ['Kava', "Caffé", "Coffe", "Kaffee"],
-    'price': "1,20€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
+    "path_to_image": "assets/coca_cola.webp",
     "descriptions": ["", "", "", ""]
   }];
 
   selected_product = this.products[0];
   @ViewChild('toggler') navbarToggler: ElementRef;
-
-
 
   public change_language = (index_language: number): void => {
     this.language = index_language;
