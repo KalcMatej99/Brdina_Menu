@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1661259184790,
+  "timestamp": 1661261133628,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -97,7 +97,7 @@
     "./assets/vino_kozarec.png": "9506921f22f092518d1cae2987dd788bd4a63640",
     "./assets/vino_steklenica.jpeg": "9cb62a1c12aab22fcfc7c6117c337a9ea47875fa",
     "./favicon.ico": "6c04482c65d3755916ff95fc37e311dcdcabc2ea",
-    "./index.html": "3f3e6ab9091f8663724678a6bbc6cd6fbc5e4c41",
+    "./index.html": "16ada7a7b807468db6c065eea4330ed78b9d33e5",
     "./main.0a457f18571997e3.js": "c8f9e02e4ac31fba2a49cee759783848a50572d8",
     "./manifest.webmanifest": "65ba7fffcb22d7c05bc9e52705ed4a83bbd383f0",
     "./polyfills.5460f73ec7c95c26.js": "0bd98a375e8988e8b62b5f55af845c841b6431f9",
