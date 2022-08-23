@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1661277438442,
+  "timestamp": 1661279313868,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "./favicon.ico",
         "./index.html",
-        "./main.00f320c2fc35e426.js",
+        "./main.b1e8dc3faed97240.js",
         "./manifest.webmanifest",
         "./polyfills.5460f73ec7c95c26.js",
         "./runtime.14d40a41da480da6.js",
@@ -109,8 +109,8 @@
     "./assets/vino_steklenica.webp": "9890b05b6dd7800018213bc8cb18c11b24163bd4",
     "./assets/voda.webp": "d5581f87c0a17cc03ae6008579df041d064d308e",
     "./favicon.ico": "6c04482c65d3755916ff95fc37e311dcdcabc2ea",
-    "./index.html": "c54f271a78c2957431eaccf26587c2076a3b9ce6",
-    "./main.00f320c2fc35e426.js": "22947c910b0f3bc76874c0e2a43229f89c443a7a",
+    "./index.html": "d8b60d02e99596289fd7cbe64ed74b88fbee9940",
+    "./main.b1e8dc3faed97240.js": "ff2a0822f442c703def36171186f728f41afdfe5",
     "./manifest.webmanifest": "65ba7fffcb22d7c05bc9e52705ed4a83bbd383f0",
     "./polyfills.5460f73ec7c95c26.js": "0bd98a375e8988e8b62b5f55af845c841b6431f9",
     "./runtime.14d40a41da480da6.js": "f10199963c81b8c22f4a2fa453a99c0953dd12cf",
