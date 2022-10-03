@@ -93,12 +93,6 @@ export class AppComponent {
     "path_to_image": "assets/kruhovi_cmoki_s_gulazem.webp",
     "descriptions": ["Tradicionalni kraški njoki iz kruha s golažem.", "Gnocchi tradizionali del Carso di pane con gulasch.", "Traditional Karst gnocchi made from bread with goulash.", "Traditionelle Karst-Gnocchi aus Brot mit Gulasch."]
   }, {
-    'id': 14,
-    'names': ['Breskve v vinu', "Pesche al vino", "Peaches in Wine", "Pfirsiche Im Wein"],
-    'price': "3,00€",
-    "path_to_image": "assets/breskve_v_vinu.webp",
-    "descriptions": ["Breskve v vinu s sladkorjem so tradicionalni kraški napitek.", "Le pesche al vino con zucchero sono una bevanda tradizionale del Carso.", "Peaches in wine with sugar are a traditional Karst drink.", "Pfirsiche in Wein mit Zucker sind ein traditionelles Karstgetränk."]
-  }, {
     'id': 17,
     'names': ['Rezina kruha', "Fetta di pane", "Slice of bread", "Brot (Scheibe)"],
     'price': "0,50€",
