@@ -12,7 +12,7 @@ export class AppComponent {
   subtitles_start_message = ["SMUČAJ Z BRDINO!", "SCIA COL BRDINA!", "SKI WITH BRDINA!", "SKI MIT BRDINA!"]
   button_start_message = ["Ogled cenika", "Mostra menu", "Show the menu", "Menü anzeigen"]
 
-  titles = ['Kraška Ohcet 2022', "Nozze Carsiche 2022", "Karst Wedding 2022", "Karsthochzeit 2022"];
+  titles = ['Barcolana 2022', "Barcolana 2022", "Barcolana 2022", "Barcolana 2022"];
 
   language = 0
   language_texts = ["SLO 🇸🇮", "ITA 🇮🇹", "ENG 🇺🇸", "DE 🇩🇪"]
@@ -20,7 +20,7 @@ export class AppComponent {
   description_button = ["Opis", "Info", "Info", "Info"]
 
   location_title = ["Kje smo?", "Dove siamo?", "Where are we?", "Wo sind wir?"]
-  location = ["Repen, št. 20", "Repen, n. 20", "Repen, n. 20", "Repen, N. 20"]
+  location = ["Obelisk, Opčine", "Obelisco, Opicina", "Repen, n. 20", "Repen, N. 20"]
 
   social_title = ["Socialna omrežja", "Reti Sociali", "Social Networks", "Soziale Netzwerke"]
 
@@ -28,10 +28,10 @@ export class AppComponent {
 
   products: any[] = [{
     'id': 0,
-    'names': ['Kuhani štruklji', "Struccoli cotti", "Cooked traditional sweet with walnuts", "Gekochter Strukkoli"],
-    'price': "6,00€",
-    "path_to_image": "assets/struccoli.webp",
-    "descriptions": ["Kuhani štruklji z orehi, skuto in rozinami je tradicionalna kraška sladica.", "Lo struccolo con noci, ricotta e uvetta è un dolce tipico del Carso.", "Struccolo with walnuts, ricotta and raisins is a typical dessert of the Karst.", "Struccolo mit Walnüssen, Ricotta und Rosinen ist ein typisches Dessert des Karstes."]
+    'names': ['Pivo (0,3L)', "Birra (0,3L)", "Beer (0,3L)", "Bier (0,3L)"],
+    'price': "3,00€",
+    "path_to_image": "assets/pivo.webp",
+    "descriptions": ["", "", "", ""]
   }, {
     'id': 1,
     'names': ['Surov pršut (100g)', "Prosciutto Crudo (100g)", "Raw Ham (100g)", "Schinken (100g)"],
@@ -69,12 +69,6 @@ export class AppComponent {
     "path_to_image": "assets/jota_s_klobaso.webp",
     "descriptions": ["Jota je tradicionalna mineštra s kislim zeljem, fižolom, slanino. Dodana je še klobasa.", "Jota è una minestra tradizionale con crauti, fagioli e pancetta. Si aggiunge la salsiccia.", "Jota is a traditional minestra with sauerkraut, beans, and bacon. Sausage is added.", "Jota ist eine traditionelle Minestra mit Sauerkraut, Bohnen und Speck. Wurst kommt hinzu."]
   }, {
-    'id': 7,
-    'names': ['Klobasa z zeljem', "Salsiccia con crauti", "Sausage with cabbage", "Wurst mit Sauerkraut"],
-    'price': "5,50€",
-    "path_to_image": "assets/klobasa_z_zeljem.webp",
-    "descriptions": ["", "", "", ""]
-  }, {
     'id': 8,
     'names': ['Oranžada (0,5L)', "Aranciata (0,5L)", "Orange drink (0,5L)", "Orangen limonade (0,5L)"],
     'price': "3,00€",
@@ -83,7 +77,7 @@ export class AppComponent {
   }, {
     'id': 9,
     'names': ['Voda (0,5L)', "Acqua (0,5L)", "Water (0,5L)", "Wasser (0,5L)"],
-    'price': "1,00€",
+    'price': "1,20€",
     "path_to_image": "assets/voda.webp",
     "descriptions": ["", "", "", ""]
   }, {
@@ -93,41 +87,17 @@ export class AppComponent {
     "path_to_image": "assets/kava.webp",
     "descriptions": ["", "", "", ""]
   }, {
-    'id': 11,
-    'names': ['Golaž', "Gulasch", "Gulasch", "Gulasch"],
-    'price': "5,50€",
-    "path_to_image": "assets/golaz.webp",
-    "descriptions": ["Golaž je tradicionalen kraški mesni krožnik z paradižnikovo omako.", "Il gulasch è un piatto di carne tradizionale del Carso con salsa di pomodoro.", "Goulash is a traditional Karst meat dish with tomato sauce.", "Gulasch ist ein traditionelles Fleischgericht aus dem Karst mit Tomatensoße."]
-  }, {
     'id': 12,
     'names': ['Kruhovi njoki s golažem', "Gnocchi di pane con gulasch", "Bread dumplings with Gulasch", "Knödel aus Brot mit Gulasch"],
     'price': "6,50€",
     "path_to_image": "assets/kruhovi_cmoki_s_gulazem.webp",
     "descriptions": ["Tradicionalni kraški njoki iz kruha s golažem.", "Gnocchi tradizionali del Carso di pane con gulasch.", "Traditional Karst gnocchi made from bread with goulash.", "Traditionelle Karst-Gnocchi aus Brot mit Gulasch."]
   }, {
-    'id': 13,
-    'names': ['Češpljevi njoki', "Gnocchi di susine", "Sweet plums dumplings", "Zwetschgenknödel"],
-    'price': "3,50€",
-    "path_to_image": "assets/ces_njoki.webp",
-    "descriptions": ["Češpljevi cmoki so tradicionalna kraška sladica s sladica iz krompirjevega testa s slivo.", "Gli gnocchi di susine sono un dolce tipico del Carso a base di pasta di patate e prugne.", "Gnocchi 'de susini' are a typical Karst dessert made with potato and plum paste.", "Gnocchi 'de susini' sind ein typisches Karst-Dessert aus Kartoffel- und Pflaumenpaste."]
-  }, {
     'id': 14,
     'names': ['Breskve v vinu', "Pesche al vino", "Peaches in Wine", "Pfirsiche Im Wein"],
     'price': "3,00€",
     "path_to_image": "assets/breskve_v_vinu.webp",
     "descriptions": ["Breskve v vinu s sladkorjem so tradicionalni kraški napitek.", "Le pesche al vino con zucchero sono una bevanda tradizionale del Carso.", "Peaches in wine with sugar are a traditional Karst drink.", "Pfirsiche in Wein mit Zucker sind ein traditionelles Karstgetränk."]
-  }, {
-    'id': 15,
-    'names': ['Kifeljčki (slatki / slani)', "Chifeletti (dolci / salati)", "Kipfel (sweet / savory)", "Kipfel (süß / herzhaft)"],
-    'price': "3,50€",
-    "path_to_image": "assets/kifelcki.webp",
-    "descriptions": ["Slani ali sladki kifelčki iz krompirja so tradicionalna kraška priloga.", "I chifeletti dolci o salati di patate sono un contorno tradizionale del Carso.", "Sweet or savory potato chifeletti are a traditional side dish from the Karst.", "Süße oder herzhafte Kartoffel-Chifeletti sind eine traditionelle Beilage aus dem Karst."]
-  }, {
-    'id': 16,
-    'names': ['Kuhana jajca', "Uova sode", "Bolled eggs", "Gekochte Eier"],
-    'price': "0,50€",
-    "path_to_image": "assets/kuhano_jajce.webp",
-    "descriptions": ["", "", "", ""]
   }, {
     'id': 17,
     'names': ['Rezina kruha', "Fetta di pane", "Slice of bread", "Brot (Scheibe)"],
@@ -149,7 +119,7 @@ export class AppComponent {
   }, {
     'id': 20,
     'names': ['Teranov Liker', "Liquore vino terrano", "Teran Wine Liquor", "Teran Weinlikör"],
-    'price': "3,00€",
+    'price': "2,50€",
     "path_to_image": "assets/teranov_liker.webp",
     "descriptions": ["Liker iz kraškega terana.", "Liquore del Terrano carsico.", "Liqueur from the Karst Teran.", "Likör aus dem Karst Teran."]
   }, {
@@ -161,8 +131,26 @@ export class AppComponent {
   }, {
     'id': 22,
     'names': ['Coca cola (0,5L)', "Coca cola (0,5L)", "Coca cola (0,5L)", "Coca cola (0,5L)"],
-    'price': "3,00€",
+    'price': "2,50€",
     "path_to_image": "assets/coca_cola.webp",
+    "descriptions": ["", "", "", ""]
+  }, {
+    'id': 22,
+    'names': ['Topel čaj', "Thè caldo", "Hot the", "Heißer Tee"],
+    'price': "1,00€",
+    "path_to_image": "assets/topel_čaj.webp",
+    "descriptions": ["", "", "", ""]
+  }, {
+    'id': 22,
+    'names': ['Pivo na meter', "Metro di Birra", "Meter of Beer", "Bierzähler"],
+    'price': "25,00€",
+    "path_to_image": "assets/pivo_na_meter.webp",
+    "descriptions": ["", "", "", ""]
+  }, {
+    'id': 22,
+    'names': ['Krof', "Krapfen", "Krapfen", "Krapfen"],
+    'price': "1,50€",
+    "path_to_image": "assets/krof.webp",
     "descriptions": ["", "", "", ""]
   }];
 
@@ -181,10 +169,14 @@ export class AppComponent {
   }
 
   @ViewChild('modal_product') public modalProductComponent: ModalProductComponent;
-  async openModalProduct(productId: number) {
-    this.selected_product = this.products[productId]
-    if (this.selected_product.descriptions[0] != "") {
-      return await this.modalProductComponent.open();
+  async openModalProduct(productName: string) {
+    for(var i = 0; i < this.products.length; i++) {
+      if(productName == this.products[i].names[0]) {
+        this.selected_product = this.products[i]
+        if (this.selected_product.descriptions[0] != "") {
+          return await this.modalProductComponent.open();
+        }
+      }
     }
     return null
   }

@@ -43,7 +43,7 @@
     <div class="row justify-content-center">
 
       <div class="col-6 col-md-4 col-lg-3 mb-5" *ngFor="let product of products;">
-        <div class="portfolio-item mx-auto" (click)="openModalProduct(product.id)" id="{{product.id}}">
+        <div class="portfolio-item mx-auto" (click)="openModalProduct(product.names[0])" id="{{product.names[0]}}">
           <img class="img-fluid" src="{{product.path_to_image}}" alt="..." />
           <h4 class="text-center text-uppercase text-secondary mb-0"><span
               id="ime_uporabnika">{{product.names[language]}} </span></h4>
@@ -65,7 +65,7 @@
       <!-- Footer Location-->
       <div class="col-lg-4 mb-5 mb-lg-0">
         <h4 class="text-uppercase mb-4">{{location_title[language]}}</h4>
-        <a class="btn btn-outline-light btn-social mx-1" href="https://goo.gl/maps/t2pa5DdMh8P9pghs7"><i
+        <a class="btn btn-outline-light btn-social mx-1" href="https://goo.gl/maps/PJKeJSFLxVwNv26d6"><i
             class="fa-solid fa-map-location-dot"></i></a>
         <p class="lead mb-0">
           {{location[language]}}
@@ -84,7 +84,7 @@
       <div class="col-lg-4 mb-5 mb-lg-0">
         <h4 class="text-uppercase mb-4">{{opensource_title[language]}}</h4>
         <a class="btn btn-outline-light btn-social mx-1"
-          href="https://github.com/KalcMatej99/Brdina_Menu_Kraska_Ohcet"><i class="fa-brands fa-github"></i></a>
+          href="https://github.com/KalcMatej99/Brdina_Menu"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
   </div>
