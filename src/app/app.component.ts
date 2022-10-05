@@ -53,19 +53,19 @@ export class AppComponent {
   }, {
     'id': 4,
     'names': ['Sendvič', "Panino", "Sandwich", "Sandwich"],
-    'price': "3,50€",
+    'price': "3,00€",
     "path_to_image": "assets/sendvic.webp",
     "descriptions": ["Sendvič je s pršutom surovim ali s pršutom kuhanim ali s sirom ali s klobaso.", "Il panino viene fornito con prosciutto crudo o prosciutto cotto o formaggio o salsiccia.", "The sandwich comes with raw ham or cooked ham or cheese or sausage.", "Das Sandwich wird mit rohem Schinken oder gekochtem Schinken oder Käse oder Wurst serviert."]
   }, {
     'id': 5,
     'names': ['Jota', "Jota", "Jota", "Traditionelle Sauerkrautsuppe"],
-    'price': "4,00€",
+    'price': "4,50€",
     "path_to_image": "assets/jota.webp",
     "descriptions": ["Jota je tradicionalna mineštra s kislim zeljem, fižolom in slanino.", "Jota è una minestra tradizionale con crauti, fagioli e pancetta.", "Jota is a traditional minestra with sauerkraut, beans and bacon.", "Jota ist eine traditionelle Minestra mit Sauerkraut, Bohnen und Speck."]
   }, {
     'id': 6,
     'names': ['Jota s klobaso', "Jota con salsiccia", "Jota with Sausage", "Traditionelle Sauerkrautsuppe mit Wurst"],
-    'price': "5,50€",
+    'price': "6,00€",
     "path_to_image": "assets/jota_s_klobaso.webp",
     "descriptions": ["Jota je tradicionalna mineštra s kislim zeljem, fižolom, slanino. Dodana je še klobasa.", "Jota è una minestra tradizionale con crauti, fagioli e pancetta. Si aggiunge la salsiccia.", "Jota is a traditional minestra with sauerkraut, beans, and bacon. Sausage is added.", "Jota ist eine traditionelle Minestra mit Sauerkraut, Bohnen und Speck. Wurst kommt hinzu."]
   }, {
@@ -89,7 +89,7 @@ export class AppComponent {
   }, {
     'id': 12,
     'names': ['Kruhovi cmoki z golažem', "Gnocchi di pane con gulasch", "Bread dumplings with Gulasch", "Knödel aus Brot mit Gulasch"],
-    'price': "6,50€",
+    'price': "7,00€",
     "path_to_image": "assets/kruhovi_cmoki_s_gulazem.webp",
     "descriptions": ["Tradicionalni kraški cmoki iz kruha z golažem.", "Gnocchi tradizionali del Carso di pane con gulasch.", "Traditional Karst gnocchi made from bread with goulash.", "Traditionelle Karst-Gnocchi aus Brot mit Gulasch."]
   }, {
