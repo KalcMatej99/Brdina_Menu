@@ -88,10 +88,10 @@ export class AppComponent {
     "descriptions": ["", "", "", ""]
   }, {
     'id': 12,
-    'names': ['Kruhovi njoki z golažem', "Gnocchi di pane con gulasch", "Bread dumplings with Gulasch", "Knödel aus Brot mit Gulasch"],
+    'names': ['Kruhovi cmoki z golažem', "Gnocchi di pane con gulasch", "Bread dumplings with Gulasch", "Knödel aus Brot mit Gulasch"],
     'price': "6,50€",
     "path_to_image": "assets/kruhovi_cmoki_s_gulazem.webp",
-    "descriptions": ["Tradicionalni kraški njoki iz kruha z golažem.", "Gnocchi tradizionali del Carso di pane con gulasch.", "Traditional Karst gnocchi made from bread with goulash.", "Traditionelle Karst-Gnocchi aus Brot mit Gulasch."]
+    "descriptions": ["Tradicionalni kraški cmoki iz kruha z golažem.", "Gnocchi tradizionali del Carso di pane con gulasch.", "Traditional Karst gnocchi made from bread with goulash.", "Traditionelle Karst-Gnocchi aus Brot mit Gulasch."]
   }, {
     'id': 17,
     'names': ['Rezina kruha', "Fetta di pane", "Slice of bread", "Brot (Scheibe)"],
