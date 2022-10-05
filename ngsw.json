@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1664832816056,
+  "timestamp": 1664969927126,
   "index": "https://brdina.live/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://brdina.live/favicon.ico",
         "https://brdina.live/index.html",
-        "https://brdina.live/main.aabd6ea384c3a5b7.js",
+        "https://brdina.live/main.a3d7a7c6c48ef00c.js",
         "https://brdina.live/manifest.webmanifest",
         "https://brdina.live/polyfills.5460f73ec7c95c26.js",
         "https://brdina.live/runtime.14d40a41da480da6.js",
@@ -117,8 +117,8 @@
     "https://brdina.live/assets/vino_steklenica.webp": "9890b05b6dd7800018213bc8cb18c11b24163bd4",
     "https://brdina.live/assets/voda.webp": "d5581f87c0a17cc03ae6008579df041d064d308e",
     "https://brdina.live/favicon.ico": "6c04482c65d3755916ff95fc37e311dcdcabc2ea",
-    "https://brdina.live/index.html": "e2931cfbf47de41ea3591b9d71ef401eb284d3b1",
-    "https://brdina.live/main.aabd6ea384c3a5b7.js": "6bb5f302a8713d54cef1dfba38565d0f4a292125",
+    "https://brdina.live/index.html": "eb8cf77eb4756d4c677d651095816ed7d89ab70d",
+    "https://brdina.live/main.a3d7a7c6c48ef00c.js": "a1a7fb6179bc487dae15032a033dddb35fbccc8d",
     "https://brdina.live/manifest.webmanifest": "65ba7fffcb22d7c05bc9e52705ed4a83bbd383f0",
     "https://brdina.live/polyfills.5460f73ec7c95c26.js": "0bd98a375e8988e8b62b5f55af845c841b6431f9",
     "https://brdina.live/runtime.14d40a41da480da6.js": "f10199963c81b8c22f4a2fa453a99c0953dd12cf",
